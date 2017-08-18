@@ -1,0 +1,53 @@
+{
+  "Database" :
+  {
+    "strHost"     : "localhost",
+    "strUser"     : "root",
+    "strPassword" : "",
+    "strDatabase" : "fz"
+  },
+  "Server" :
+  {
+    "IPAddr"    : "192.168.173.1",
+    "Port"      : "33033",
+    "URLMethod" : "http://"
+  },
+  "Msg" :
+  {
+    "strError"  		            : "Error",
+    "strLoginSuccess"	          : "Login success",
+    "strLoginFailed"	          : "Invalid username or password",
+    "strSQLFailed"	            : "Database connection failed",
+    "strTaskListFailed"	        : "Download tasklist failed",
+    "strTaskListEmpty"	        : "New tasklist not found",
+    "strTaskListSuccess"        : "Download tasklist success",
+    "strLogoutFailed"           : "Logout failed",
+    "strLogoutSuccess"          : "Logout success",
+    "strTaskListSyncFailed"     : "Upload tasklist failed",
+    "strTaskListSyncSuccess"    : "Upload tasklist success",
+    "strTaskListUpdateFailed"   : "Update tasklist failed",
+    "strTaskListUpdateSuccess"  : "Update tasklist success",
+    "strChangePasswordFailed"   : "Change password failed",
+    "strChangePasswordSuccess"  : "Change password success",
+    "strRegistrationFailed"     : "User registration failed",
+    "strRegistrationSuccess"    : "User registration success"
+  },
+  "Code" :
+  {
+    "Success"     : 0,
+    "Fail"        : -1,
+    "Empty"       : -2,
+    "NotSuccess"  : 201,
+    "Error"       : 202,
+    "OK"          : 200
+  },
+  "RouterAPIV1" :
+  {
+    "users"     : "/api/v1/users",
+    "tasks"     : "/api/v1/tasks"
+  },
+  "Utils" :
+  {
+    "CountDownTimer"  : 300000
+  }
+}
