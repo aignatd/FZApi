@@ -3,7 +3,7 @@
   {
     "strHost"     : "localhost",
     "strUser"     : "root",
-    "strPassword" : "",
+    "strPassword" : "hana13062009",
     "strDatabase" : "fz"
   },
   "Server" :

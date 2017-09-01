@@ -2,7 +2,7 @@
  * Created by ignat on 05-Jan-17.
  */
 
-var fixvalue = require('./fixvalue.json');
+var fixvalue = require('./fixvalue.json')
 var strMsg = fixvalue.Msg;
 var strRspID = fixvalue.Code;
 var strJSON;

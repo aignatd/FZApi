@@ -35,10 +35,8 @@ module.exports.ChangePassword =
   function (req, conn, callback)
   {
     data = req.body["UserData"];
-    console.log(data);
     strQuery = 'UPDATE user as a SET a.Password="' + data["NewPassword"] + '" WHERE a.UserID=' + data["UserID"] +
                ' AND a.Password="' + data["Password"] + '"';
-    console.log(strQuery);
     conn.query(strQuery, callback);
   };
 
