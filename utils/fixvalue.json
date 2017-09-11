@@ -8,15 +8,15 @@
   },
   "Server" :
   {
-    "IPAddr"    : "192.168.173.1",
+    "IPAddr"    : "192.168.43.169",
     "Port"      : "33033",
     "URLMethod" : "http://"
   },
   "Msg" :
   {
-    "strError"  		            : "Error",
-    "strLoginSuccess"	          : "Login success",
-    "strLoginFailed"	          : "Invalid username or password",
+    "strError"  		        : "Error",
+    "strLoginSuccess"	        : "Login success",
+    "strLoginFailed"	        : "Invalid username or password",
     "strSQLFailed"	            : "Database connection failed",
     "strTaskListFailed"	        : "Download tasklist failed",
     "strTaskListEmpty"	        : "New tasklist not found",
@@ -30,7 +30,10 @@
     "strChangePasswordFailed"   : "Change password failed",
     "strChangePasswordSuccess"  : "Change password success",
     "strRegistrationFailed"     : "User registration failed",
-    "strRegistrationSuccess"    : "User registration success"
+    "strRegistrationSuccess"    : "User registration success",
+    "strReasonListFailed"	    : "Download reason failed",
+    "strReasonListEmpty"	    : "Reason data found",
+    "strReasonListSuccess"      : "Download reason success"
   },
   "Code" :
   {
@@ -44,7 +47,9 @@
   "RouterAPIV1" :
   {
     "users"     : "/api/v1/users",
-    "tasks"     : "/api/v1/tasks"
+    "tasks"     : "/api/v1/tasks",
+    "reasons"   : "/api/v1/reasons"
+
   },
   "Utils" :
   {

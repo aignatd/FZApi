@@ -12,6 +12,7 @@ var swagger = require("swagger-node-express");
 var index = require('./routes/index');
 var user = require('./routes/user');
 var task = require('./routes/task');
+var reason = require('./routes/reason');
 
 // Add by Ignat
 var FixValue = require('./utils/fixvalue.json');
@@ -56,6 +57,7 @@ app.use('/', index);
 // Add by Ignat
 app.use(FixValue.RouterAPIV1.users, user);
 app.use(FixValue.RouterAPIV1.tasks, task);
+app.use(FixValue.RouterAPIV1.reasons, reason);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

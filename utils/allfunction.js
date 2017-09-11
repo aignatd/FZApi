@@ -89,5 +89,21 @@ module.exports =
   {
     strJSON =	{"CoreResponse" : {"Code"	:	strRspID.Success, "Msg"	:	strMsg.strRegistrationSuccess}};
     return strJSON;
+  },
+  ReasonListFailed	:	function()
+  {
+    strJSON =	{"CoreResponse" : {"Code"	:	strRspID.Fail, "Msg"	:	strMsg.strReasonListFailed}};
+    return strJSON;
+  },
+  ReasonListEmpty	:	function()
+  {
+    strJSON =	{"CoreResponse" : {"Code"	:	strRspID.Empty, "Msg"	:	strMsg.strReasonListEmpty}};
+    return strJSON;
+  },
+  ReasonListSuccess	:	function(results)
+  {
+    strJSON = {"CoreResponse" : {"Code"	:	strRspID.Success, "Msg"	:	strMsg.strReasonListSuccess},
+               "ReasonResponse" : results};
+    return strJSON;
   }
 }
